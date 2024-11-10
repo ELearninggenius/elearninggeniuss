@@ -1,0 +1,143 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a2e; /* Biru Tua */
+  color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #16213e;
+}
+
+.navbar .brand h1 {
+  color: #fcbf49; /* Emas */
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: none;
+}
+
+.menu-btn {
+  font-size: 1.5rem;
+  color: #f5f5f5;
+  background: none;
+  border: none;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+  background: #0f3460;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #fcbf49; /* Emas */
+}
+
+.cta-btn {
+  background-color: #fcbf49; /* Emas */
+  color: #1a1a2e;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.cta-btn:hover {
+  background-color: #d9a20b; /* Lebih Gelap */
+}
+
+/* Section Styles */
+section {
+  padding: 2rem 20px;
+}
+
+section h2 {
+  color: #fcbf49;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Products and Services */
+.products,
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-item,
+.service-item {
+  background-color: #16213e;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  color: #f5f5f5;
+}
+
+/* Testimonials */
+.testimonials-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.testimonial-item {
+  background-color: #16213e;
+  color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  min-width: 250px;
+  margin-right: 10px;
+  font-style: italic;
+}
+
+/* FAQ */
+.faq-item h3 {
+  cursor: pointer;
+  color: #fcbf49; /* Emas */
+}
+
+.faq-item p {
+  color: #aaa;
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+}
+
+.whatsapp-logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #16213e;
+}
+
+.footer .social-media a {
+  color: #fcbf49;
+  margin: 0 10px;
+  text-decoration: none;
+}
